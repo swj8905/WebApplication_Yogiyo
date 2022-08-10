@@ -5,7 +5,7 @@ import urllib.parse as par
 import streamlit as st
 import pydeck as pdk
 
-st.write("# 요기요 가게 검색")
+st.write("# 요기요 가게 검색 프로그램!")
 user_input = st.text_input("원하는 주소 입력 >> ")
 encoded = par.quote(user_input)
 header = {
